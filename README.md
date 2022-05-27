@@ -1,6 +1,6 @@
 # Explorando Padrões de Projetos na Prática com Java
-## Digital Innovation One
-## GFT Start 5 Java
+## Digital Innovation One e GFT Start 5 Java
+## Implementado Caso de Uso: Livro e Livraria, consumindo a API ViaCep para alimentor os endereços em Livraria.
 
 ### Project: Maven Project;
 ### Language: Java 17;
