@@ -1,13 +1,9 @@
 package one.digitalinnovation.gof.model;
 
-import lombok.Data;
-
 import javax.persistence.*;
 
-
-@Entity(name = "Distribuidora")
-public class Distribuidora {
-
+@Entity(name = "Livraria")
+public class Livraria {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -37,4 +33,11 @@ public class Distribuidora {
         this.endereco = endereco;
     }
 
+    public Integer getNumeroEndereco() {
+        return numeroEndereco;
+    }
+
+    public void setNumeroEndereco(Integer numeroEndereco) {
+        this.numeroEndereco = numeroEndereco;
+    }
 }

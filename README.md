@@ -2,26 +2,25 @@
 ## Digital Innovation One
 ## GFT Start 5 Java
 
-* Project: Maven Project;
-* Language: Java 17;
-* Spring Boot: 2.7.0;
+### Project: Maven Project;
+### Language: Java 17;
+### Spring Boot: 2.7.0;
 
-* Dependencies:
+### Dependencies:
 - Spring Web
 - Spring Data JPA
 - H2 Database
 - OpenFeign
-- Lombok
 
-Técnicas de Padrões de Projetos abordadas:
+### Técnicas de Padrões de Projetos abordadas:
 * Padrão Criacional: @Bean, @Autowired e Singleton
 * Padrão Comportamental: @Service, @Repository e Strategy
 * Padrão Estrutural: @RestController e Facade
 
-Link para acesso:
+### Link para acesso:
 Swagger: ``http://127.0.0.1:8080/swagger-ui.html``
 
-Parâmetros Minimos para PlayLoad no POST:
+### Parâmetros Minimos para PlayLoad no POST:
 ``
 {
     "nome": "strin",
@@ -36,4 +35,20 @@ Parâmetros Minimos para PlayLoad no POST:
     ]
 } `` 
 
+### Exemplo para Post:
+``
+{
+    "nome": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "isbn": "9780201633610",
+    "autor": "Erich Gamma, Richard Helm, Ralpah Johnson, John M. Vlissides",
+    "livrarias": [
+    {
+        "nome": "Saraiva",
+        "endereco": {
+        "cep": "15285000"        
+              },
+              "numeroEndereco": 11
+            }
+    ]
+} ``
 
